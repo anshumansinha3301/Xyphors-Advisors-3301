@@ -1,5 +1,5 @@
 use std::f64::EPSILON;
-
+           
 /// Function to calculate Net Present Value (NPV)
 fn npv(discount_rate: f64, cash_flows: &[f64]) -> f64 {
     cash_flows.iter()
